@@ -1,0 +1,121 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    background-color: rgba(0, 126, 0, 0.651);
+    padding: 0 20px;
+    font-family: arial, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    color: black;
+    margin-bottom: 20px;
+}
+
+#logoTrilhas {
+    max-width: 500px;
+    margin-top: 20px;
+}
+
+.fundobranco {
+    max-width: 100%;
+    width: 900px;
+    height: 600px;
+    background-color: white;
+    text-align: center;
+    border-radius: 15px;
+    padding-top: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.466);
+}
+
+.form {
+    width: 100%;
+    max-width: 400px;
+    padding: 20px;
+}
+
+.form label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+.form input,
+.form select,
+.form textarea {
+    width: 100%;
+    padding: 13px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    box-sizing: border-box;
+    resize: none;
+}
+
+input[type="submit"] {
+    background-color: rgba(3, 105, 3, 0.945);
+    color: white;
+    width: 200px;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+input[type="submit"]:hover {
+    background-color: #039403;
+}
+
+.colunas{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.anexar {
+    display: flex;
+    flex-direction: column;
+}
+
+.anexar label,
+.anexar input {
+    text-align: left;
+    font-weight: normal;
+    padding: 20px;
+}
+
+.anexar input[type="file"] {
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+.anexar input[type="file"]::-webkit-file-upload-button {
+    background-color: #007e00;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.anexar input[type="file"]::-webkit-file-upload-button:hover {
+    background-color: #005500;
+}
+
+
+
+@media screen and (max-width: 1150px) {
+    #logoTrilhas {
+        max-width: 30%;
+    }
+}

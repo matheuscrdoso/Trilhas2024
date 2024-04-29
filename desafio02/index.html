@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Ficha de Inscrição</title>
+</head>
+<body>
+    <div class="fundobranco">
+        <h2>Ficha de Inscrição</h2>
+
+        <div class="colunas" >
+            <div class="form">
+                <input type="text" id="nomeCompleto" name="nomeCompleto" placeholder="Nome Completo" required>
+            
+                <input type="text" id="cpf" name="cpf" placeholder="CPF" required>
+            
+                <input type="text" id="endereco" name="endereco" placeholder="Endereço Completo" required>
+            
+                <input type="tel" id="telefone" name="telefone" placeholder="Telefone" required>
+            
+                <input type="email" id="email" name="email" placeholder="E-mail" required>
+            
+                <select id="escolaridade" name="escolaridade" required>
+                    <option value="">Escolaridade</option>
+                    <option value="ensinoMedio">Ensino Médio</option>
+                    <option value="ensinoSuperior">Ensino Superior</option>
+                    <option value="posGraduacao">Pós-graduação</option>
+                </select>
+            
+                <textarea id="experiencia" name="experiencia" placeholder="Experiência prévia na área de tecnologia (opcional)" rows="4" cols="50"></textarea>
+            </div>
+            
+            <div class="anexar">
+                
+                <label for="identidade">&#129489;Identidade:</label>
+                <input type="file" id="identidade" name="identidade">
+                
+                <label for="comprovanteResidencia">&#x1F4C3;Comprovante de Residência:</label>
+                <input type="file" id="comprovanteResidencia" name="comprovanteResidencia">
+                
+            </div>
+        </div>
+
+            
+            <div class="botoes">
+                <input type="submit" value="Enviar"> 
+                <input type="submit" value="Cancelar">
+            </div>
+    </div>
+    <img id="logoTrilhas" src="img/teste.png" alt="LOGO-TRILHAS">
+</body>
+</html>
